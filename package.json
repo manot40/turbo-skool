@@ -1,0 +1,26 @@
+{
+  "name": "turbo-skool",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "test": "turbo run test --parallel",
+    "lint": "turbo run lint",
+    "format": "turbo run format --parallel"
+  },
+  "devDependencies": {
+    "eslint-config-custom": "workspace:*",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {},
+  "packageManager": "pnpm@7.18.0"
+}

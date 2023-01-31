@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "lib": ["ES5", "ES6"],
+    "strict": true,
+    "target": "ES6",
+    "module": "CommonJS",
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "extends": "tsconfig/base.json",
+  "exclude": ["node_modules"],
+  "include": ["**/*.ts"]
+}
